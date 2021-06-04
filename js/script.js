@@ -1,15 +1,17 @@
+// Input
+var nome = document.getElementById("nome");
+var km = document.getElementById("km");
+var età = document.getElementById("età");
+var submit = document.getElementById('submit');
+submit.addEventListener("click", function(){
+    console.log('ciao')
+var annulla = document.getElementById("annulla");
 
-// // età
-// var età = parseInt(prompt('Quanti anni hai?'));
 
-// // operazione prezzo
 // var biglietto = 0.21 * km;
 
 // var scatola = biglietto;
 
-var submit = document.getElementById('submit');
-submit.addEventListener("click", function(){
-    console.log('ciao')
 })
 
 // if else
