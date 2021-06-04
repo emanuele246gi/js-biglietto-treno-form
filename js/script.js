@@ -1,10 +1,14 @@
 // Input
-var nome = document.getElementById("nome");
+var nome = document.getElementById('nome');
+
 var km = document.getElementById("km");
+
 var età = document.getElementById("età");
+
 var submit = document.getElementById('submit');
 submit.addEventListener("click", function(){
-    console.log('ciao')
+    document.getElementById('name').innerHTML = nome
+
 var annulla = document.getElementById("annulla");
 
 
