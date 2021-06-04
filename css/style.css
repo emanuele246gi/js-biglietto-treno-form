@@ -36,6 +36,16 @@ h2{
     width: 80vh;
     margin: auto;
     margin-top: 20px;
+}
+
+.row{
     display: flex;
-    justify-content: ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#col-1-5{
+    flex-basis: calc((100% / 5) * 1);
+    max-width: calc((100% / 5) * 1);
 }
