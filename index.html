@@ -13,25 +13,25 @@
         <section class="calcolo">
             <div class="dati">
                 <div>
-                    Nome Cognome <br>
-                    <input type="text" id="nome">
+                    <h4>Nome Cognome</h4><br>
+                    <input type="text" class="tasto" id="nome" value="">
                 </div>
                 <div>
-                    Km da percorrere <br>
+                    <h4>Km da percorrere</h4><br>
                     <input type="number" class="tasto" id="km">
                 </div>
                 <div>
-                    Fascia di età <br>
-                    <select id="età">
-                        <option value="">Minorenne</option>
-                        <option value="">Maggiorenne</option>
-                        <option value="">Over 65</option>
+                    <h4>Fascia di età</h4><br>
+                    <select id="età" class="tasto">
+                        <option value="Minorenne">Minorenne</option>
+                        <option value="Maggiorenne">Maggiorenne</option>
+                        <option value="Over65">Over 65</option>
                     </select>
                 </div>
             </div>
             <div>
-                <button id="submit">Submit</button>
-                <button>Annulla</button>
+                <button onclick="submit()">Submit</button>
+                <button id="annulla">Annulla</button>
             </div>
         </section>
 
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-1-5">
-                    <div class="box-uno">
+                    <div class="box-due">
                         <div class="titolo-due">
                             Offerta
                         </div>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-1-5">
-                    <div class="box-uno">
+                    <div class="box-tre">
                         <div class="titolo-tre">
                             Carrozza
                         </div>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-1-5">
-                    <div class="box-uno">
+                    <div class="box-quattro">
                         <div class="titolo-quattro">
                             Codice CP
                         </div>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="col-1-5">
-                    <div class="box-uno">
+                    <div class="box-cinque">
                         <div class="titolo-cinque">
                             Costo biglietto
                         </div>
